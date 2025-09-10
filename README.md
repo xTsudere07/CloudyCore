@@ -1,5 +1,5 @@
 # 📘 BÀI TẬP ĐẠO HÀM
-> Cực nhiều bài tập từ cơ bản → trung bình → khó → nâng cao → ứng dụng
+> Sắp xếp từ cơ bản → trung bình → khó → nâng cao → ứng dụng
 
 ---
 
@@ -17,187 +17,226 @@
 
 ## 1. Bảng công thức đạo hàm
 
-(⚡ Giữ nguyên bảng công thức cơ bản, hàm hợp, tích – thương, mũ – logarit như ở trên)
+### 🔹 Đạo hàm cơ bản
+| Hàm số | Đạo hàm |
+|--------|---------|
+| $(x^a)'$ | $ax^{a-1}$ |
+| $(\sqrt{x})'$ | $\dfrac{1}{2\sqrt{x}}$ |
+| $\left(\dfrac{1}{x}\right)'$ | $-\dfrac{1}{x^2}$ |
+| $(\sin x)'$ | $\cos x$ |
+| $(\cos x)'$ | $-\sin x$ |
+| $(\tan x)'$ | $\dfrac{1}{\cos^2 x}$ |
+| $(\cot x)'$ | $-\dfrac{1}{\sin^2 x}$ |
+
+### 🔹 Quy tắc đạo hàm
+| Quy tắc | Công thức |
+|---------|-----------|
+| Tổng/Hiệu | $(u \pm v)' = u' \pm v'$ |
+| Tích | $(uv)' = u'v + uv'$ |
+| Thương | $\left(\dfrac{u}{v}\right)' = \dfrac{u'v - uv'}{v^2}$ |
+
+### 🔹 Hàm hợp
+| Hàm hợp | Đạo hàm |
+|---------|---------|
+| $(u^a)'$ | $au^{a-1} \cdot u'$ |
+| $(\sqrt{u})'$ | $\dfrac{u'}{2\sqrt{u}}$ |
+| $(\sin u)'$ | $u' \cos u$ |
+| $(\cos u)'$ | $-u' \sin u$ |
+| $(\tan u)'$ | $\dfrac{u'}{\cos^2 u}$ |
+| $(\cot u)'$ | $-\dfrac{u'}{\sin^2 u}$ |
+
+### 🔹 Mũ và logarit
+| Hàm số | Đạo hàm |
+|--------|---------|
+| $(e^x)'$ | $e^x$ |
+| $(a^x)'$ | $a^x \ln a$ |
+| $(\ln x)'$ | $\dfrac{1}{x}$ |
+| $(\log_a x)'$ | $\dfrac{1}{x \ln a}$ |
+| $(e^u)'$ | $u' e^u$ |
+| $(a^u)'$ | $u' a^u \ln a$ |
+| $(\ln u)'$ | $\dfrac{u'}{u}$ |
+| $(\log_a u)'$ | $\dfrac{u'}{u \ln a}$ |
 
 ---
 
-## 2. Bài tập dễ 🟢
+## 2. Bài tập dễ
 
 ### 📝 Bài 1
-Tính đạo hàm:  
-a) $y = x^2$  
-b) $y = x^3 + 2x$  
-c) $y = \sqrt{x}$  
-d) $y = \dfrac{1}{x}$  
-e) $y = 5x^4 - 7x$  
-f) $y = \sin x$  
-g) $y = \cos x$
+Tính $f'(x)$ với $f(x) = x^3 + 2x$  
+👉 Áp dụng: $(x^a)' = ax^{a-1}$  
+
+<details><summary>🔎 Lời giải</summary>  
+$f'(x) = 3x^2 + 2$  
+</details>
 
 ---
 
 ### 📝 Bài 2
-a) $y = x^5 + x^4$  
-b) $y = \sqrt{2x}$  
-c) $y = \dfrac{3}{x}$  
-d) $y = 7x^7 - 2$  
-e) $y = \sin(2x)$  
-f) $y = \cos(3x)$  
-g) $y = \tan x$
+Tính $y'$ với $y = \sqrt{x} + \dfrac{1}{x}$  
+
+👉 Áp dụng: $(\sqrt{x})'$, $\left(\dfrac{1}{x}\right)'$  
+
+<details><summary>🔎 Lời giải</summary>  
+$y' = \dfrac{1}{2\sqrt{x}} - \dfrac{1}{x^2}$  
+</details>
 
 ---
 
 ### 📝 Bài 3
-a) $y = \cot x$  
-b) $y = \sqrt[3]{x}$  
-c) $y = \dfrac{1}{x^3}$  
-d) $y = x^2 + \sqrt{x}$  
-e) $y = \sin x + \cos x$  
-f) $y = 4x^6 - x$  
-g) $y = \sqrt{x} + \dfrac{1}{x}$  
+Tính $y'$ với $y = 5x^4 - 7x + 9$  
+
+👉 Áp dụng: $(x^a)'$, $(c)'=0$  
+
+<details><summary>🔎 Lời giải</summary>  
+$y' = 20x^3 - 7$  
+</details>
 
 ---
 
-## 3. Bài tập trung bình 🟡
-
 ### 📝 Bài 4
-a) $y = (3x^2+1)^5$  
-b) $y = \sin(2x+3)$  
-c) $y = \cos(x^2)$  
-d) $y = \sqrt{x^2+1}$  
-e) $y = (2x+5)^7$  
-f) $y = \sin(\sqrt{x})$  
-g) $y = \cos(3x^3 - x)$  
+Tính $y'$ với $y = \sin x + \cos x$  
+
+👉 Áp dụng: $(\sin x)'$, $(\cos x)'$  
 
 ---
 
 ### 📝 Bài 5
-a) $y = (x^3+2)^4$  
-b) $y = \sin(x^3)$  
-c) $y = \cos(\sqrt{x})$  
-d) $y = \sqrt{\sin x}$  
-e) $y = (5x-1)^6$  
-f) $y = \tan(2x)$  
-g) $y = \cot(x^2)$  
+Tính $y'$ với $y = x^2 + \sqrt{x} + \dfrac{1}{x}$  
 
 ---
+
+## 3. Bài tập trung bình
 
 ### 📝 Bài 6
-a) $y = \ln(x^2+1)$  
-b) $y = e^{x^2}$  
-c) $y = \sqrt{3x^2+2}$  
-d) $y = (2x+1)^3$  
-e) $y = \sin(5x^2)$  
-f) $y = \cos(\sqrt{3x})$  
-g) $y = \tan(x^3)$  
+$f(x) = (3x^2 + 1)^5$  
+
+👉 Áp dụng: $(u^a)' = au^{a-1}u'$  
+
+<details><summary>🔎 Lời giải</summary>  
+$f'(x) = 30x(3x^2 + 1)^4$  
+</details>
 
 ---
 
-## 4. Bài tập khó 🔴
-
 ### 📝 Bài 7
-a) $y = (x^2+1)(x^3-2x)$  
-b) $y = \dfrac{x^2+3x+2}{x+1}$  
-c) $y = \dfrac{2x+1}{x^2+1}$  
-d) $y = (x^3+1)\sqrt{x}$  
-e) $y = \dfrac{\sin x}{\cos x}$  
-f) $y = (x^2+1)(\sqrt{x})$  
-g) $y = \dfrac{\sqrt{x}+1}{x^2+1}$  
+$g(x) = \sin(2x + 3)$  
+
+👉 Áp dụng: $(\sin u)' = u' \cos u$  
+
+<details><summary>🔎 Lời giải</summary>  
+$g'(x) = 2\cos(2x + 3)$  
+</details>
 
 ---
 
 ### 📝 Bài 8
-a) $y = (x^2+1)(\sin x)$  
-b) $y = \dfrac{\cos x}{x}$  
-c) $y = \dfrac{\sqrt{x}}{x+1}$  
-d) $y = (x^2+3x)(e^x)$  
-e) $y = (x^3+1)(\ln x)$  
-f) $y = \dfrac{x^2}{\sqrt{x+1}}$  
-g) $y = \dfrac{\sin(2x)}{x^2+1}$  
+$y = \cos(x^2)$  
 
 ---
 
 ### 📝 Bài 9
-a) $y = (x+1)(x-1)(x^2+1)$  
-b) $y = \dfrac{x^3+1}{x^2+1}$  
-c) $y = \dfrac{e^x}{x}$  
-d) $y = \dfrac{\ln x}{x}$  
-e) $y = (x^2+1)(\tan x)$  
-f) $y = (x^3-1)(\cos x)$  
-g) $y = \dfrac{\sqrt{x^2+1}}{x}$  
+$y = \sqrt{x^2 + 1}$  
 
 ---
 
-## 5. Bài tập nâng cao ⚡
+## 4. Bài tập khó
 
 ### 📝 Bài 10
-a) $y = e^{2x^2}$  
-b) $y = \ln(3x^2+1)$  
-c) $y = 2^x$  
-d) $y = \ln(\sin x)$  
-e) $y = 3^{x^2}$  
-f) $y = \log_2(x+1)$  
-g) $y = e^{\sqrt{x}}$  
+$y = (x^2 + 1)(x^3 - 2x)$  
+
+👉 Áp dụng: $(uv)' = u'v + uv'$  
+
+<details><summary>🔎 Lời giải</summary>  
+$y' = 5x^4 - 3x^2 - 2$  
+</details>
 
 ---
 
 ### 📝 Bài 11
-a) $y = e^{\sin x}$  
-b) $y = \ln(\cos x)$  
-c) $y = 5^{x^3}$  
-d) $y = \log_3(x^2+1)$  
-e) $y = e^{\tan x}$  
-f) $y = \ln(\sqrt{x^2+1})$  
-g) $y = 7^{\sqrt{x}}$  
+$y = \dfrac{x^2 + 3x + 2}{x + 1}$  
+
+👉 Áp dụng: $\left(\dfrac{u}{v}\right)'$  
+
+<details><summary>🔎 Lời giải</summary>  
+$y' = 1$  
+</details>
 
 ---
 
 ### 📝 Bài 12
-a) $y = e^{x^2+1}$  
-b) $y = \ln(e^x+1)$  
-c) $y = 10^{\sin x}$  
-d) $y = \log_5(\sqrt{x})$  
-e) $y = e^{\ln x}$  
-f) $y = \ln(x^2\sin x)$  
-g) $y = 2^{\ln x}$  
+$y = \dfrac{2x + 1}{x^2 + 1}$  
 
 ---
-
-## 6. Bài tập ứng dụng 🚀
 
 ### 📝 Bài 13
-a) Quãng đường $s(t) = 5t^2+3t$. Tính vận tốc tại $t=2$.  
-b) Vận tốc $v(t) = 6t-4$. Tính gia tốc.  
-c) Quãng đường $s(t) = t^3-3t^2+2t$. Tính vận tốc tại $t=1,3$.  
-d) $s(t)=\sin t$. Tính $v(t), a(t)$.  
-e) $Q(t)=t^2+2t$. Tính $I(t)=Q'(t)$.  
-f) $s(t)=e^t$. Tính $v(t), a(t)$.  
-g) $s(t)=\ln(t+1)$. Tính $v(t)$.  
+$y = (x^3 + 1)\sqrt{x}$  
 
 ---
 
+## 5. Bài tập nâng cao
+
 ### 📝 Bài 14
-a) $s(t)=t^4$. Tính $v(t), a(t)$.  
-b) $s(t)=3t^3-2t^2+t$. Tính $v(1), a(1)$.  
-c) $v(t)=t^2+1$. Tính $a(t)$.  
-d) $s(t)=e^{2t}$. Tính $v(t), a(t)$.  
-e) $Q(t)=\sin t$. Tính $I(t)$.  
-f) $s(t)=\cos t$. Tính $v(t), a(t)$.  
-g) $s(t)=\ln(2t+1)$. Tính $v(t)$.  
+$y = e^{2x^2}$  
+
+👉 Áp dụng: $(e^u)' = u' e^u$  
+
+<details><summary>🔎 Lời giải</summary>  
+$y' = 4x e^{2x^2}$  
+</details>
+
+---
+
+### 📝 Bài 15
+$y = \ln(3x^2 + 1)$  
+
+---
+
+### 📝 Bài 16
+$y = 2^x$  
+
+---
+
+### 📝 Bài 17
+$y = \ln(\sin x)$  
+
+---
+
+## 6. Bài tập ứng dụng
+
+### 📝 Bài 18
+Quãng đường $s(t) = 5t^2 + 3t$.  
+👉 Tính vận tốc tại $t=2$.  
+
+<details><summary>🔎 Lời giải</summary>  
+$v(t) = s'(t) = 10t + 3 \Rightarrow v(2) = 23$  
+</details>
+
+---
+
+### 📝 Bài 19
+$v(t) = 6t - 4$.  
+👉 Tính gia tốc tức thời.  
+
+---
+
+### 📝 Bài 20
+$s(t) = t^3 - 3t^2 + 2t$.  
+👉 Tính vận tốc tại $t=1$ và $t=3$.  
 
 ---
 
 ## 7. Lời khuyên học tập
-- Làm từ dễ → khó, mỗi ngày 10–20 bài.  
-- Với dạng $f'(x)$ phức tạp → tách ra đặt $u$.  
-- Luôn thử thay số để test.  
+- Học từ dễ → khó.  
+- Luôn thử thay số để check kết quả.  
+- Mỗi ngày 5–10 bài là đủ luyện.  
 
 ---
 
 ## 8. Tài liệu tham khảo
-- Khan Academy – Calculus  
-- Paul’s Online Math Notes  
+- [Khan Academy - Calculus](https://www.khanacademy.org/math/calculus-1)  
+- [Paul's Online Math Notes](https://tutorial.math.lamar.edu/Classes/CalcI/CalcI.aspx)  
 - SGK Giải tích 12  
 
 ---
 
-*📚 Soạn với ❤️ – đủ bộ cho NaO luyện nát đạo hàm luôn!*
+*📚 Soạn với ❤️ – Chúc bạn học tốt!*
