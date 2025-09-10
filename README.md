@@ -328,6 +328,6 @@ $$v(2) = 10(2) + 3 = 23 \text{ (đơn vị vận tốc)}$$
 
 ---
 
-*📚 Được soạn với ❤️ - Chúc bạn học tốt!*
+*📚 Được soạn với NaO - Chúc bạn học tốt!*
 
 **⭐ Nếu tài liệu hữu ích, hãy cho repo một ngôi sao nhé!**
