@@ -57,6 +57,8 @@
 | $(\ln u)'$ | $\dfrac{u'}{u}$ |
 | $(\log_a u)'$ | $\dfrac{u'}{u \ln a}$ |
 
+| Căn X = X^1/2
+
 ---
 
 ## 2. Bài tập dễ
