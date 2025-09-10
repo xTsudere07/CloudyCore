@@ -226,15 +226,11 @@ $s(t) = t^3 - 3t^2 + 2t$.
 ---
 
 ## 7. Lời khuyên học tập
-- Học từ dễ → khó.  
-- Luôn thử thay số để check kết quả.  
-- Mỗi ngày 5–10 bài là đủ luyện.  
+
 
 ---
 
 ## 8. Tài liệu tham khảo
-- [Khan Academy - Calculus](https://www.khanacademy.org/math/calculus-1)  
-- [Paul's Online Math Notes](https://tutorial.math.lamar.edu/Classes/CalcI/CalcI.aspx)  
 - SGK Giải tích 12  
 
 ---
